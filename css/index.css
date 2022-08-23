@@ -1,215 +1,213 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/* ...................  */
+/* CSS RESET */
+/* ...................  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    font-family: 'poppins', 'Fredoka One', cursive;
+body {
+  font-family: "poppins", "Fredoka One", cursive;
 }
 
-.container{
-    max-width: 120rem;
-    margin: 0 auto;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
+/* ......................  */
 /* Nav bar Styling */
+/* ......................  */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem ;
-    margin-bottom: 5rem ;
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
-nav .logo{
-    width: 10rem;
-    cursor: pointer;
-}
-
-.nav-items{
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-    margin-left: 20rem;
+nav .logo {
+  width: 10rem;
+  cursor: pointer;
 }
 
-.nav-item{
-    font-size: 1.8rem;
-    line-height: 1.8;
-    font-weight: 400;
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin-left: 20rem;
 }
 
-.nav-item:hover{
- color: #FE5E35;
- font-weight: 600;
- cursor: pointer;
-}
-.nav-items .active-item{
-    font-weight: 600;
-    color:#FE5E35;
+.nav-item {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
-.nav-element{
-    width: 30rem;
-    cursor: pointer;
+.nav-item:hover {
+  color: #fe5e35;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-items .active-item {
+  font-weight: 600;
+  color: #fe5e35;
 }
 
+.nav-element {
+  width: 30rem;
+  cursor: pointer;
+}
 
+/* ...........................  */
 /*  Hero Section */
+/* ...........................  */
 
-.intro-section{
-    display: grid;
-    /* display: flex; */
-    grid-template-columns: 60fr 40fr;
+.intro-section {
+  display: grid;
+  grid-template-columns: 60fr 40fr;
 }
 
-.left-section{
-    margin-top: 2rem;
-
+.left-section {
+  margin-top: 2rem;
 }
 
-.left-section h3{
-    font-size: 3rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+.left-section h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
-.left-section h3 img{
-    width: 4.5rem;
+.left-section h3 img {
+  width: 4.5rem;
 }
 
-.left-section h1{
-    font-size: 6rem;
-    font-family: 'Fredoka One', cursive; 
-    margin-bottom: 3rem;
+.left-section h1 {
+  font-size: 6rem;
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 3rem;
 }
 
-.sub-headlines{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-
-}
-
-.sub-headline{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
+.sub-headlines {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  margin-left: 8rem;
+  margin-bottom: 3rem;
 }
 
 .sub-headline {
-    font-family: "poppins", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
-.sub-headline img{
-    background-color: #FE5E35;
-    border-radius: 50%;  
-    width: 2rem;
-    height: 2rem;
-    padding: .3rem;
+.sub-headline {
+  font-family: "poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
 
-.text{
-    font-size: 1.3rem;
-    line-height: 1.6;
-    padding: 1rem;
-    color: #B0B0B0;
-    margin-bottom: 4rem;
+.sub-headline img {
+  background-color: #fe5e35;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.3rem;
 }
 
-.action-btns{
-    display: flex;
-    gap: 1rem;
+.text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  padding: 1rem;
+  color: #b0b0b0;
+  margin-bottom: 4rem;
 }
 
-.action-btn{
-    display: block;
-    width: 15rem;
-    height: 4.5rem;
-    color: #fff;
-    font-size: 1.4rem;
-    font-weight: 500;
-    border: 1px solid transparent;
-    background-color: #FE5E35;
-    border-radius: 30px;
+.action-btns {
+  display: flex;
+  gap: 1rem;
 }
 
-.action-btn:hover{
-    cursor: pointer;
-    background-color: #e76f51;
+.action-btn {
+  display: block;
+  width: 15rem;
+  height: 4.5rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  background-color: #fe5e35;
+  border-radius: 30px;
 }
 
-
-/* Left section */
-
-.right-section{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: auto;
+.action-btn:hover {
+  cursor: pointer;
+  background-color: #e76f51;
 }
 
+/* ............................  */
+/* Right section */
+/* ............................  */
 
-.discount{
-    position: absolute;
-    width: 25%;
-    color: #fff;
-    top: 240px;
-    left: 10px;
-    
-}
-.discount-content{
-    position: absolute;
-    top: 270px;
-    left: 40px;
-    font-size: 1.6rem;
-    line-height: 1;
-    color: #fff;
-    font-weight: 500;
-    text-align: center;
-    /* z-index: -100; */
+.right-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
-.headphone{
-    width: 85%;
-    /* height: 100%; */
-    margin-left: 4rem;
+.discount {
+  position: absolute;
+  width: 25%;
+  color: #fff;
+  top: 240px;
+  left: 10px;
+}
+.discount-content {
+  position: absolute;
+  top: 270px;
+  left: 40px;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
 }
 
-.dots{
-    display: flex;
-    gap: 2rem;
-    margin: 3rem 0;
-}
-.dot{
-padding: 1rem;
-border-radius: 50%;
+.headphone {
+  width: 85%;
+  margin-left: 4rem;
 }
 
-.yellow-dot{
-background-color: #FBD104;
+.dots {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem 0;
 }
-.tomato-dot{
-background-color: #FE5E35;
-}
-.black-dot{
-background-color: #000000;
-}
- .action-btn{
-    /* display: block; */
+.dot {
+  padding: 1rem;
+  border-radius: 50%;
 }
 
+.yellow-dot {
+  background-color: #fbd104;
+}
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #000000;
+}
+
+/* .................................................  */
